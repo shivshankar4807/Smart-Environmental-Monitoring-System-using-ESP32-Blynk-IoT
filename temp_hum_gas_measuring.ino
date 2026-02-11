@@ -1,6 +1,7 @@
-#define BLYNK_TEMPLATE_ID "TMPL3Ym64Hki_"
+
+#define BLYNK_TEMPLATE_ID "Enter your temp id "
 #define BLYNK_TEMPLATE_NAME "gas detect"
-#define BLYNK_AUTH_TOKEN "jSKvkvpIBzUYxo3RgZUBfTRNCY7tpg-S"
+#define BLYNK_AUTH_TOKEN "Enter your auth token "
 
 
 #define BLYNK_PRINT Serial
@@ -9,8 +10,8 @@
 #include <BlynkSimpleEsp32.h>
 #include <DHT.h>
 
-char ssid[] = "Shivshankar";
-char pass[] = "password";
+char ssid[] = "Shivshankar";//wifi/hotspot name
+char pass[] = "password";//password
 
 #define DHTPIN 4
 #define DHTTYPE DHT11
